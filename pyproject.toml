@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "hakai-science-products"
+version = "0.1.0"
+description = ""
+authors = ["Jessy Barrette <30420025+JessyBarrette@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hakai_salish_sea_model_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+erddap-python = "^1.0.0"
+pandas = "1.5.3"
+matplotlib = "^3.8.2"
+imageio = "^2.33.1"
+tqdm = "^4.66.1"
+loguru = "^0.7.2"
+xarray = "^2023.7.0"
+pytest = "^8.0.0"
+openpyxl = "^3.1.2"
+folium = "^0.15.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+isort = "^5.13.2"
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

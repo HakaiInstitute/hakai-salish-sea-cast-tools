@@ -1,0 +1,4 @@
+.DS_Store
+notebooks/output/*
+**/*.pyc
+nemo_grid_dataset_geo.nc
