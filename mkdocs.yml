@@ -1,0 +1,19 @@
+site_name: Hakai SalishSeaCast Products
+nav:
+  - Home: index.md
+  - Oceanography: oceanography.md
+  - Sentinel: sentinel.md
+
+theme:
+  name: material
+  logo: assets/logo.png
+  palette: 
+    scheme: default
+    primary: red
+    accent: amber
+  features:
+    - navigation.tracking
+    - navigation.tabs
+  
+plugins:
+  - search 
