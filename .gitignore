@@ -1,4 +1,4 @@
 .DS_Store
-oceanography/output/*
+oceanography/output*
 **/*.pyc
 nemo_grid_dataset_geo.nc
